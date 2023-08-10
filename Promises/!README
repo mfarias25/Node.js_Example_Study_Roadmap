@@ -1,0 +1,22 @@
+Promises = Objeto usado para processamentos assincrono.
+Uma Promise e uma representecao de um valor que pode estar disponivel agora, no futuro ou nunca.
+
+
+Possiveis estados de uma Promise:
+-pending - aguardando resposta.
+-fulfilled = Sucesso na oprecao a promessa foi cumprida com sucesso.
+-rejected = Houve um problema e a promessa foi rejeitada(falha)
+-settled = Ja foi rejeitada ou realizada
+
+CONSTRUTOR DA PROMISE:
+
+let promise1 = new Promise ((resolve, reject) =>{
+  resolve('xxxxx')
+})
+
+EXECUTANDO UMA PROMISE:
+
+
+promise1.then((PARAMETRO DO RESOLVE)=> {
+console.log(PARAMETRO DO RESOLVE)
+}) 

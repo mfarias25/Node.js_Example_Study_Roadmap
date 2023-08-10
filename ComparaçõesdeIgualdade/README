@@ -1,0 +1,18 @@
+IGUALDADE AMPLA:
+
+Representacao: ==
+Negacao: !=
+
+
+Funcionamento: Compara os valores, desconsiderando o tipo do mesmo.
+Pode gerar problemas por ter flexibilidade muito grande
+
+
+IGUALDADE ESTRITA:
+
+Representacao: ===
+Negacao: !==
+
+Funcionamento: Compara os valores, considerando o tipo dos mesmos. 
+E mais seguro, garante que a comparacao feita seja mais rigorosa, 
+nao deixando margem para confusoes de tipagem da variavel.
